@@ -24,7 +24,7 @@ class SuperHero:
 
 
 
-    def phrase(self):
+    def __phrase__(self):
         print(f'catchphrase:{len(self.catch)}')
 
 
