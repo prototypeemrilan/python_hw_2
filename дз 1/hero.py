@@ -33,7 +33,7 @@ class SuperHero:
 Hero = SuperHero('Джорно', 'Kakugo', 'Gold Experience', 10, 'ВУРАВУРАВУРА')
 Hero.vivod()
 Hero.multiplication()
-Hero.phrase()
+Hero.__phrase__()
 print(Hero)
 
 
