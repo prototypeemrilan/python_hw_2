@@ -98,9 +98,6 @@ vagon.phrase()
 class Villain(DestroyHero):
     monster = 'monster'
 
-    def __init__(self, name, nickname, superpower, health_points, catchphrase, damage=False, fly=False):
-        super().__init__(name, nickname, superpower, health_points, catchphrase)
-
     def gen_x(self):...
 
     def critdamage(self):
